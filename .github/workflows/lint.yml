@@ -1,0 +1,11 @@
+name: lint 
+on: 
+  push:
+    branches: 
+      - dev
+jobs:
+  run-linters:
+    runs-on: ubuntu-lastest
+    steps:
+      - name: LaTeX linter (chktex)
+        uses: j2kun/chktex-action@v1.0.2
