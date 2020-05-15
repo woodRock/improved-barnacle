@@ -1,0 +1,80 @@
+\documentclass[10pt]{article}
+
+% set dimensions for the page layout
+\usepackage[margin=3cm]{geometry}
+
+% use arrays, and define custom colors
+\usepackage{array, xcolor}
+
+% generate dummy text
+\usepackage{lipsum}
+
+% Generate a list of inline publications
+\usepackage{bibentry}
+
+\definecolor{lightgray}{gray}{0.8}
+
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+
+\newcolumntype{R}{p{0.8\textwidth}}
+
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+
+\title{\bfseries\Huge Jesse Wood}
+
+\author{tinkerer $\cdot$ engineer in the making $\cdot$ j.r.h.wood98@gmail.com}
+
+\date{15/05/20}
+
+\begin{document}
+
+\maketitle
+
+\vspace{2em}
+
+\begin{minipage}[ht]{0.48\textwidth}
+Island Bay \\
+Wellington, NZ
+\end{minipage}
+\begin{minipage}[ht]{0.48\textwidth}
+github.com/woodRock\\
+woodrock.tk\\
++62 21 026 48190
+\end{minipage}
+
+\section*{Education}
+\begin{tabular}{L!{\VRule}R}
+2016--today & {\bf BE(Hons) in Engineering, Victoria University of Wellington, NZ.}\\[5pt]
+& University of Wellington is one of New Zealand’s oldest and most prestigious tertiary institutions with a proud tradition of academic excellence. \\ 
+2011--2015 & {\bf NCEA Level 1-3 Excellence, Rongotai College, NZ.}\\
+& The Rongotai Way is a set of values that governs the behaviour of members of the Rongotai College community and the relationships between members of the community. \\
+\end{tabular}
+
+\section*{Languages}
+\begin{tabular}{L!{\VRule}R}
+Java & Fluent \\
+Javascript & Intermeditate \\
+Postgresql & Intermediate \\
+Haskell & Intermediate \\
+Bash & Experienced \\
+\end{tabular}
+
+\section*{Professional Experience}
+\begin{tabular}{L!{\VRule}R}
+2020--today & {\bf Volunteer at Niwa} \\
+&NIWA, the National Institute of Water and Atmospheric Research, is a Crown Research Institute established in 1992. It operates as a stand-alone company with its own Board of Directors and Executive. \\
+2018--2019 & {\bf Bartender at St. Johns Bar and Eatery} \\
+&They sell a variety of Wellington craft beers including Tuatara and Black Dog. St. Johns Bar \& Eatery is a classy function centre, restaurant and bar. \\
+2012--2018 & {\bf Bartender at Mac's Brewery} \\
+&They are the flagship bar for New Zealand's Mac's beer. Mac's is a function centre, restaurant and bar.\\
+\end{tabular}
+
+\bibliographystyle{plain}
+\nobibliography{publication.bib}
+\section*{Publications}
+\begin{tabular}{L!{\VRule}R}
+2006 & \bibentry{knuthwebsite}\\[5pt]
+1968 & \bibentry{einstein}\\
+\end{tabular}
+
+\end{document}
