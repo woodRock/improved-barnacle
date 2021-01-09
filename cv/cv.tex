@@ -1,26 +1,6 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Developer CV
-% LaTeX Template
-% Version 1.0 (28/1/19)
-%
-% This template originates from:
-% http://www.LaTeXTemplates.com
-%
-% Authors:
-% Jan Vorisek (jan@vorisek.me)
-% Based on a template by Jan Küster (info@jankuester.com)
-% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
-%
-% License:
-% The MIT License (see included LICENSE file)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TODO [ ] Increase font size to avoid migraines and Health and Safety issues for prospective employers.
 
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
-\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+\documentclass[9pt]{developercv}
 
 %----------------------------------------------------------------------------------------
 
@@ -30,33 +10,24 @@
 %	TITLE AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-
-	% If your name is very short, use just one of the lines below
-	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+\begin{minipage}[t]{0.45\textwidth}
+	\vspace{-\baselineskip}
 	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Jesse}}}}} % First name
 
 	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Wood}}}}} % Last name
 
 	\vspace{6pt}
 
-	{\huge Student / Intern} % Career or current job title
+	{\huge Software Developer}
 \end{minipage}
-\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-
-	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
-	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+\begin{minipage}[t]{0.275\textwidth}
+	\vspace{-\baselineskip}
 	\icon{MapMarker}{12}{Wellington New Zealand}\\
 	\icon{Phone}{12}{+64 210 26 48190}\\
 	\icon{At}{12}{\href{mailto:j.r.h.wood98@gmail.com}{j.r.h.wood98@gmail.com}}\\
 \end{minipage}
-\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-
-	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
-	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+\begin{minipage}[t]{0.275\textwidth}
+	\vspace{-\baselineskip}
 	\icon{Globe}{12}{\href{https://woodrock.tk}{woodrock.tk}}\\
 	\icon{Github}{12}{\href{https://github.com/woodrock}{github.com/woodrock}}\\
 	\icon{Twitter}{12}{\href{https://twitter.com/@jrhwood}{@jrhwood}}\\
@@ -67,34 +38,25 @@
 %----------------------------------------------------------------------------------------
 %	INTRODUCTION, SKILLS AND TECHNOLOGIES
 %----------------------------------------------------------------------------------------
+% My opening paragraph would look great on any other CV.
+% Because I am discussing abstract ideas, rather than framing what I have done.
 
-\cvsect{Who Am I?}
+% TODO [ ] Talk about what I have done specifically
+% TODO [ ] Don't frame me as a student
+% TODO [ ] Should highlight that there is gold here
+% TODO [ ] Specify which field, and areas of software engineering I am passionate about
+% TODO [ ] Work at Niwa is gold as are my hobbies in AI and Robotics
 
-\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
+\cvsect{Personal Statement}
 
-	Forth-year engineering student majoring in Software. Finding an opportunity to apply and expand my knowledge. Highly motivated and ready to learn new things, with experience in the service industry and a passion for all things tech. % Bio
-\end{minipage}
-\hfill % Whitespace between
-\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	\begin{barchart}{5.5}
-		\baritem{Python}{50}
-		\baritem{JavaScript}{80}
-		\baritem{R}{40}
-		\baritem{Git}{70}
-		\baritem{LaTeX}{80}
-		\baritem{Postgres}{60}
-	\end{barchart}
-\end{minipage}
-
-\begin{center}
-	\bubbles{ 3/Keras, 2/Tensorflow,  3/Sklearn, 4/Jupyter, 3/Weka, 4/Kaggle }
-\end{center}
+My goal is to leave the world a better place than I found it. I plan to bring that goal into reality by creating technology which improves the quality of life. These goals have motivated my passion for software engineering and the open-source community as a tool for sharing knowledge. This objective has led me to a voluntary internship at NIWA, collaborating with scientists and physicists in their research on our oceans and atmosphere to the world. Software is a medium to explore my scientific curiosity and contribute a meaningful change.
 
 %----------------------------------------------------------------------------------------
 %	EXPERIENCE
 %----------------------------------------------------------------------------------------
+% TODO [ ] merge bartending roles into a few transferrable skills
+% TODO [ ] serving customers to deliver their needs, conflict resolution skills and negotiation
+% TODO [ ] don't reduce the bartending wordcount, increase the gold
 
 \cvsect{Experience}
 
@@ -104,7 +66,9 @@
 		{Software Developer Internship}
 		{Niwa}
 		{
-			My work experience involved developing a geographic information system (GIS). This used the Mapserver framework to create a web map service (WMS) to render data stored on a PostGIS database.
+			My work was a multi-disciplinary collaboration to implement an end to end best practice OGC Standard software. We utilized an open-source technology stack to create web services that queried a database on a Linux cloud server. Data understanding was an important area of this work. Without previous expertise in Geo-Physics or Biology, I learned to extract requirements for software from across disciplines. I documented and presented my work to non-technical users through best practise agile methodology.
+			\\\\
+			The SARS-2 COVID-19 pandemic obstructed my ability to work onsite. During this time I learnt how to work remotely from home, utilizing industry-standard tools like Microsoft Teams for communication and Pulse Secure for offsite encrypted access to the NIWA intranet. I had to adapt to the new environment of working from home and remain productive.
 			\\
 			\texttt{postgres}\slashsep\texttt{mapserver}\slashsep\texttt{linux}
 		}
@@ -113,7 +77,7 @@
 		{Bartender, Barista, Mixologist, Maitre D'}
 		{St. Johns Bar and Eatery}
 		{
-			I furthered my communication skills from serving the upmarket clientele. This included supervising functions for Ministers of Parliament and their cabinets. We regularly hosted the staff for Xero and TradeMe.
+			In this role, I learnt to organise a team to work efficiently. As Maitre D', I developed a holistic approach to ensuring that the needs of every customer were met. Equal attention had to be provided to maintain an excellent quality of service. Here I learnt how to compensate diners who experienced mistakes or unsatisfactory wait times. This role helped me understand how to deliver value to a customer and to be honest regarding roadblocks.
 			\\
 			\texttt{conflict resolution}\slashsep\texttt{health and safety}\slashsep\texttt{customer service}
 		}
@@ -122,7 +86,7 @@
 		{Bartender, Barista, Kitchenhand}
 		{Mac's Brewery}
 		{
-			This was my first job. I started with no work experience and steadily progressed through the company. I learnt valuable communication, event coordination and conflict resolution skills.
+			This was my first job. I upskilled over time to learn all aspects of the trade. Building strong soft skills in communication, event management, and conflict resolution. This was a fast-paced environment that involved risk management, which often led to negotiations with disorderly customers. I learnt to work under pressure and remain calm in combative situations.
 			\\
 			\texttt{time management}\slashsep\texttt{communication}
 		}
@@ -131,90 +95,169 @@
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
+% TODO [ ] include subjects with grades
+% TODO [ ] Expand on public speaking / debating
+% TODO [ ] Include ENGR 201, Technical Writing paper which includes presentations, public speaking and report writing
 
 \cvsect{Education}
 
 \begin{entrylist}
 	\entry
 		{2016 -- Now}
-		{Batchelor of Engineering (Hons)}
+		{Bachelor of Engineering (Hons)}
 		{Victoria University of Wellington}
 		{
-			Victoria Excellence Scholarship \\
-			Machine Learning, Mobile Software, Group Project, Game Dev
+			The bachelor degree is majoring in Software Engineering. I have taken a particular interest in Machine Learning and Data Science. This field of study compliments my industry work experience with NIWA.
+			\\\\
+			\textbf{Papers:} Artificial Intelligence, Database System Engineering, Human Computer Interaction, Professional Practise \\
+			\textbf{Roles:} volunteer note-taker \\
+			\textbf{Awards:} Victoria Excellence Scholarship \\\\
+			\emph{N.B Attatched to this CV is a letter commenting on my most recent grades.}
 		}
 	\entry
 		{2011 - 2015}
 		{NCEA Level 3 endorsed with Excellence}
-		{Rongotai}
+		{Rongotai College}
 		{
-			Scholarship English, Schools Canoe Polo \\
-			Prefect, UN Youth Ambassador, Debating, Rockquest, Jazz Band, Production Band
+			\textbf{Subjects:} Computers, Physics, Calculus, English, Graphics, Music \\
+			\textbf{Roles:} Prefect, UN Youth Ambassador, Jazz Band, Production Band \\
+			\textbf{Awards:} Scholarship English
 		}
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
-%	ADDITIONAL INFORMATION
+%	Projects
 %----------------------------------------------------------------------------------------
+% TODO [ ] expand on project descriptions
+% TODO [ ] make descriptions generic to a subject matter, less focussed on technologies
 
-\begin{minipage}[t]{0.3\textwidth}
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
+\cvsect{Projects}
 
-	\cvsect{Projects}
-	{
-		\textbf{Data Ingestion} \\
-		\texttt{Python}\slashsep\texttt{Postgres}\slashsep\texttt{GeoServer}\\
-	}
-	{
-		\textbf{Map Service} \\
-		\texttt{Postgres}\slashsep\texttt{MapServer}\slashsep\texttt{Apache}\\
-	}
-	{
-		\textbf{MCS} \\
-		\texttt{React.js}\slashsep\texttt{Mapserver}\slashsep\texttt{Leaflet}\\
-	}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.3\textwidth}
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-
-	\cvsect{Hobbies}
-
-	{
-		\textbf{Sciences} \\
-		CS, AI, Robotics, Astrophysics, Psychology \\
-	}
-	{
-		\textbf{Guitar} \\
-		 Classical, Jazz, Blues, Classic Rock \\
-	}
-	{
-		\textbf{Sports} \\
-		Canoe Polo, Table Tennis, Indoor Football \\
-	}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.3\textwidth}
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-
-	\cvsect{References}
-	{
-		\textbf{Andrea Mari} - Niwa \\
-		\textbf{E:} $\cdot$ Andea.Mari@niwa.co.nz \\
-		\textbf{P:} $\cdot$ 022434 2053 \\
-	}
-	{
-		\textbf{Tom Moorhead} - Mac's\\
-		\textbf{E:} $\cdot$ tom@sscateriing.co.nz \\
-		\textbf{P:} $\cdot$  0211395980 \\
-	}
-	{
-		\textbf{Troy Savage} - Mac's \\
-		\textbf{E:} $\cdot$ tsavage.nz@gmaill.com \\
-		\textbf{P:} $\cdot$ 0220657129
-	}
-\end{minipage}
+{
+	{\textbf{Advent of Code 2020}}
+	\\
+	{\texttt{Haskell}\slashsep\texttt{Problem Solving}\slashsep\texttt{Competition}}
+	\\\\
+}
+{
+	{\textbf{Data Ingestion}}
+	\\
+	{\texttt{Python}\slashsep\texttt{Postgres}\slashsep\texttt{GeoServer}}
+	\\\\
+}
+{
+	{\textbf{Map Service}}
+	\\
+	{\texttt{Postgres}\slashsep\texttt{MapServer}\slashsep\texttt{Apache}}
+	\\\\
+}
+{
+	{\textbf{MCS}}
+	\\
+	{\texttt{React.js}\slashsep\texttt{Mapserver}\slashsep\texttt{Leaflet}}
+}
 
 %----------------------------------------------------------------------------------------
+%	Technical Skills
+%----------------------------------------------------------------------------------------
 
+\cvsect{Technical Skills}
+
+% TODO [ ] mention areas of knowledge - Python, JavaScript, R, Git, LaTeX, Postgres
+% TODO [ ] avoid abstract measurements of capability. I am a student I don't have much experience in anything
+{
+	{\textbf{Scripting Languages}}
+	\\
+	{JavaScript (React, Angular, Vue), Java (Maven, Java 8), Haskell (Functional Programming), C (Networking), C++ (Unreal Engine)}
+	\\\\
+}
+{
+	{\textbf{Machine Learning}}
+	\\
+	{Python (Tensorflow), R (Visualization, Regression, Classification), Weka (Regression / Classification / Pipelines) }
+	\\\\
+}
+{
+	{\textbf{Databases}}
+	\\
+	{Firebase (cloud NoSQL database), Postgres (open source industry standard), Postgis (for geospatial data)}
+	\\\\
+}
+{
+	{\textbf{Workflow}}
+	\\
+	{Git (teamwork/VCS), LaTeX (technical writing)}
+}
+
+%----------------------------------------------------------------------------------------
+%	Workshops
+%----------------------------------------------------------------------------------------
+
+\cvsect{Workshops}
+
+% TODO [ ] mention workshops that I have attended - Foss4G, Python Data Ingestion, Databases 101
+{
+	{\textbf{FOSS4G}}
+	\\
+	{Free and Open Source Software for Geospatial Conference 2020}
+	\\\\
+}
+{
+	{\textbf{Python Data Ingestion}}
+	\\
+	{NIWA}
+	\\\\
+}
+{
+	{\textbf{Databases 101}}
+	\\
+	{NIWA}
+}
+
+%----------------------------------------------------------------------------------------
+%	Hobbies
+%----------------------------------------------------------------------------------------
+
+\cvsect{Hobbies}
+
+% TODO [ ] Move hobbies to the second page of the CV
+
+{
+	\textbf{Debating} \\
+	Public speaking, politics, philosophy, UN Youth Ambassador\\
+}
+{
+	\textbf{Sciences} \\
+	CS, AI, Robotics, Astrophysics, Psychology \\
+}
+{
+	\textbf{Guitar} \\
+	Classical, Jazz, Blues, Classic Rock \\
+}
+{
+	\textbf{Sports} \\
+	Canoe Polo, Table Tennis
+}
+
+%----------------------------------------------------------------------------------------
+%	References
+%----------------------------------------------------------------------------------------
+
+\cvsect{References}
+
+% TODO [ ] include titles/positions for each of the references
+% TODO [ ] connect to a soft skill for non-IT connections
+% TODO [ ] Get a list of 10 and cater references for each job
+% TODO [x] Contact information for references is available upon request
+% TODO [x] Reflect on data security and data privacy and ask what broadcasting contact information says to an employer
+{
+	\textbf{Andrea Mari} - Research Software Engineer at \emph{Niwa} \\
+	Andrea is my mentor at Niwa. He has introduced me to the software development processes at Niwa, including Jira and regular agile meetings. I am always excited to learn new concepts and to learn from his industry expertise as a software developer.\\\\
+}
+{
+	\textbf{Tom Moorhead} - Functions Coordinator for \emph{Mac's Function Center} \\
+	My work under Tom taught me how to pay attention to detail and execute a plan. Often planning large scale events for several hundred people, everything had to be in order and well thought out ahead of time. We employed industry standards in catering and collaborated with the host to meet their vision for the event. \\\\
+}
+\emph{N.B Contact information is available upon request.}
+%----------------------------------------------------------------------------------------
 \end{document}
