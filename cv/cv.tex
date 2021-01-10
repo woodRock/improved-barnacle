@@ -30,7 +30,7 @@
 	\vspace{-\baselineskip}
 	\icon{Globe}{12}{\href{https://woodrock.tk}{woodrock.tk}}\\
 	\icon{Github}{12}{\href{https://github.com/woodrock}{github.com/woodrock}}\\
-	\icon{Twitter}{12}{\href{https://twitter.com/@jrhwood}{@jrhwood}}\\
+	\icon{Linkedin}{12}{\href{https://www.linkedin.com/in/jesse-wood-047b3b16b/}{jesse-wood-047b3b16b}}\\
 \end{minipage}
 
 \vspace{0.5cm}
@@ -109,7 +109,7 @@ My goal is to leave the world a better place than I found it. I plan to bring th
 		{
 			The bachelor degree is majoring in Software Engineering. I have taken a particular interest in Machine Learning and Data Science. This field of study compliments my industry work experience with NIWA.
 			\\\\
-			\textbf{Papers:} Artificial Intelligence, Database System Engineering, Human Computer Interaction, Professional Practise \\
+			\textbf{Papers:} Artificial Intelligence, Database System Engineering, Human Computer Interaction \\
 			\textbf{Roles:} volunteer note-taker \\
 			\textbf{Awards:} Victoria Excellence Scholarship \\\\
 			\emph{N.B Attatched to this CV is a letter commenting on my most recent grades.}
@@ -126,7 +126,7 @@ My goal is to leave the world a better place than I found it. I plan to bring th
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
-%	Projects
+%	ProjectsThe Wellington Hub was hosted by Niwa.
 %----------------------------------------------------------------------------------------
 % TODO [ ] expand on project descriptions
 % TODO [ ] make descriptions generic to a subject matter, less focussed on technologies
@@ -134,27 +134,52 @@ My goal is to leave the world a better place than I found it. I plan to bring th
 \cvsect{Projects}
 
 {
-	{\textbf{Advent of Code 2020}}
+	{\textbf{Advent of Code 2020}
+	\\
+	Advent of Code is an Advent calendar of small programming puzzled that can be solved in a language of your choice. I chose to solve the 2020 AOC with Haskell. Functional programming is less prone to errors because functions cannot have unintended side effects. This is important for a competition where time is an important factor. The competition penalized incorrect submissions, so it was important to validate code on test cases, before submitting a final answer.
 	\\
 	{\texttt{Haskell}\slashsep\texttt{Problem Solving}\slashsep\texttt{Competition}}
 	\\\\
 }
 {
-	{\textbf{Data Ingestion}}
+	{\textbf{Data Ingestion}
+	\\
+	This project involved an ingesting a Benthic Biodiversity into the New Zealand Ocean Data Network (NZODN). NZODN is an open-source technology stack that implements OGC standards, with tools such as GeoServer for providing web services to display maps and GeoNetwork as a CMS for a metadata catalogue. This software is configured to communicate with a Postgres database which stores the geospatial data.
 	\\
 	{\texttt{Python}\slashsep\texttt{Postgres}\slashsep\texttt{GeoServer}}
 	\\\\
 }
 {
-	{\textbf{Map Service}}
+	{\textbf{MCS}}
 	\\
-	{\texttt{Postgres}\slashsep\texttt{MapServer}\slashsep\texttt{Apache}}
+	The Mission Control System was a software interface that runs on a laptop to display telemetry information from a rocket. It also presented the Monte Carlo simulation data on the projected landing locations. This was developed as a group using a blend of agile and scrum methodologies. We strived for the software quality attribute of portability. To do this we implemented an open-source web map service that can display locally stored map data for offline usage.
+	\\
+	{\texttt{React.js}\slashsep\texttt{Mapserver}\slashsep\texttt{Leaflet}\texttt{Apache}}
+}
+
+%----------------------------------------------------------------------------------------
+%	Workshops
+%----------------------------------------------------------------------------------------
+
+\cvsect{Workshops}
+
+% TODO [ ] mention workshops that I have attended - Foss4G, Python Data Ingestion, Databases 101
+{
+	{\textbf{FOSS4G}}
+	\\
+	The FOSS45 SoTM conference was held in November 2020. Due to the virus, local hubs for the international event were held across the planet. This conference covers cutting edge open-source GIS software. A former developer at MapBox found out there software was being used for drone strikes in the middle east. An important take away from the conference was the ethics of the software we develop. As engineers, we may consider adding a "Don't Be Evil!" clause to our license to help open source developers sleep at night.
 	\\\\
 }
 {
-	{\textbf{MCS}}
+	{\textbf{Python Data Ingestion}}
 	\\
-	{\texttt{React.js}\slashsep\texttt{Mapserver}\slashsep\texttt{Leaflet}}
+	This was a two-day workshop hosted by Niwa in November 2020. The attendees were mostly data scientists and software developers. This covered using Python for Scientific Computing. We explored the Anaconda environment for Python development for package management. It can be used to replicate a python environment on another machine. Jupyter notebook is an important tool for Literate Programming, it can be used to merge documentation and codebases. This is incredibly useful for communicating codebases to non-technical users.
+	\\\\
+}
+{
+	{\textbf{Databases 101}}
+	\\
+	This was a workshop hosted by the Principal Technician of Fisheries at NIWA. There was an interesting discussion that compared RDBMS vs NoSQL databases. There is are certain tradeoffs between different software quality attributes, and risks involve getting vendor locked into proprietary cloud software like AWS or Azure. The workshop's attendees were mostly field scientists who are end-users of the database. As a software developer who creates and maintains these databases, it was useful to understand the goals of the end-users of the product.
 }
 
 %----------------------------------------------------------------------------------------
@@ -187,31 +212,6 @@ My goal is to leave the world a better place than I found it. I plan to bring th
 	{\textbf{Workflow}}
 	\\
 	{Git (teamwork/VCS), LaTeX (technical writing)}
-}
-
-%----------------------------------------------------------------------------------------
-%	Workshops
-%----------------------------------------------------------------------------------------
-
-\cvsect{Workshops}
-
-% TODO [ ] mention workshops that I have attended - Foss4G, Python Data Ingestion, Databases 101
-{
-	{\textbf{FOSS4G}}
-	\\
-	{Free and Open Source Software for Geospatial Conference 2020}
-	\\\\
-}
-{
-	{\textbf{Python Data Ingestion}}
-	\\
-	{NIWA}
-	\\\\
-}
-{
-	{\textbf{Databases 101}}
-	\\
-	{NIWA}
 }
 
 %----------------------------------------------------------------------------------------
