@@ -1,7 +1,8 @@
 % TODO [ ] Increase font size to avoid migraines and Health and Safety issues for prospective employers.
-
 \documentclass[9pt]{developercv}
 
+% Allows us to insert an existing PDF into the document
+\usepackage{pdfpages}
 %----------------------------------------------------------------------------------------
 
 \begin{document}
@@ -38,59 +39,47 @@
 %----------------------------------------------------------------------------------------
 %	INTRODUCTION, SKILLS AND TECHNOLOGIES
 %----------------------------------------------------------------------------------------
-% My opening paragraph would look great on any other CV.
-% Because I am discussing abstract ideas, rather than framing what I have done.
-
-% TODO [ ] Talk about what I have done specifically
-% TODO [ ] Don't frame me as a student
-% TODO [ ] Should highlight that there is gold here
-% TODO [ ] Specify which field, and areas of software engineering I am passionate about
-% TODO [ ] Work at Niwa is gold as are my hobbies in AI and Robotics
+% TODO [x] Talk about what I have done specifically
+% TODO [x] Don't frame me as a student
+% TODO [x] Should highlight that there is gold here
+% TODO [x] Specify which field, and areas of software engineering I am passionate about
+% TODO [x] Work at Niwa is gold as are my hobbies in AI and Robotics
 
 \cvsect{Personal Statement}
 
-My goal is to leave the world a better place than I found it. I plan to bring that goal into reality by creating technology which improves the quality of life. These goals have motivated my passion for software engineering and the open-source community as a tool for sharing knowledge. This objective has led me to a voluntary internship at NIWA, collaborating with scientists and physicists in their research on our oceans and atmosphere to the world. Software is a medium to explore my scientific curiosity and contribute a meaningful change.
+My goal is to leave the world a better place than I found it. I plan to bring that goal into reality by creating technology which improves the quality of life. These goals have motivated my passion for software engineering and the open-source community as a tool for sharing knowledge. This objective has led me to a voluntary internship at NIWA, collaborating with scientists and physicists to publish their research on our oceans and atmosphere to a global audience. Software is a medium to explore my scientific curiosity and contribute a meaningful change.
 
 %----------------------------------------------------------------------------------------
 %	EXPERIENCE
 %----------------------------------------------------------------------------------------
-% TODO [ ] merge bartending roles into a few transferrable skills
-% TODO [ ] serving customers to deliver their needs, conflict resolution skills and negotiation
-% TODO [ ] don't reduce the bartending wordcount, increase the gold
+% TODO [x] merge bartending roles into a few transferrable skills
+% TODO [x] serving customers to deliver their needs, conflict resolution skills and negotiation
+% TODO [x] don't reduce the bartending wordcount, increase the gold
 
 \cvsect{Experience}
 
-\begin{entrylist}
-	\entry
-		{2020 -- Now\\\footnotesize{part time}}
-		{Software Developer Internship}
-		{Niwa}
-		{
-			My work was a multi-disciplinary collaboration to implement an end to end best practice OGC Standard software. We utilized an open-source technology stack to create web services that queried a database on a Linux cloud server. Data understanding was an important area of this work. Without previous expertise in Geo-Physics or Biology, I learned to extract requirements for software from across disciplines. I documented and presented my work to non-technical users through best practise agile methodology.
-			\\\\
-			The SARS-2 COVID-19 pandemic obstructed my ability to work onsite. During this time I learnt how to work remotely from home, utilizing industry-standard tools like Microsoft Teams for communication and Pulse Secure for offsite encrypted access to the NIWA intranet. I had to adapt to the new environment of working from home and remain productive.
-			\\
-			\texttt{postgres}\slashsep\texttt{mapserver}\slashsep\texttt{linux}
-		}
-	\entry
-		{2018 -- 2019}
-		{Bartender, Barista, Mixologist, Maitre D'}
-		{St. Johns Bar and Eatery}
-		{
-			In this role, I learnt to organise a team to work efficiently. As Maitre D', I developed a holistic approach to ensuring that the needs of every customer were met. Equal attention had to be provided to maintain an excellent quality of service. Here I learnt how to compensate diners who experienced mistakes or unsatisfactory wait times. This role helped me understand how to deliver value to a customer and to be honest regarding roadblocks.
-			\\
-			\texttt{conflict resolution}\slashsep\texttt{health and safety}\slashsep\texttt{customer service}
-		}
-	\entry
-		{2012 -- 2018}
-		{Bartender, Barista, Kitchenhand}
-		{Mac's Brewery}
-		{
-			This was my first job. I upskilled over time to learn all aspects of the trade. Building strong soft skills in communication, event management, and conflict resolution. This was a fast-paced environment that involved risk management, which often led to negotiations with disorderly customers. I learnt to work under pressure and remain calm in combative situations.
-			\\
-			\texttt{time management}\slashsep\texttt{communication}
-		}
-\end{entrylist}
+\textbf{Software Intern} - 2020 to Present - \emph{NIWA} , Wellington, NZ
+\begin{itemize}
+	\item Multi-disciplinary collaboration to implement an end to end best practice OGC Standard software.
+	\item Open-source technology stack to create web services that queried a database on a Linux cloud server.
+	\item Without previous expertise in Geo-Physics or Biology, Data Understanding was an important area of this work. We extracted requirements for software using the knowledge provided from other disciplines.
+	\item Participate in weekly meetings to communicate progress. Documentation of work to non-technical users through best practise agile methodology.
+	\item Work remotely from home due to the COVID-19 pandemic. Utilizing industry-standard tools (i.e, Microsoft Teams for communication and Pulse Secure for SSH).
+\end{itemize}
+
+\textbf{Front of House} - 2018 to 2019 - \emph{St. Johns Bar and Eatery}, Wellington, NZ
+\begin{itemize}
+	\item Upsell new products or promotions.
+	\item Organise a team to work efficiently.
+	\item Deliver value to a customer and to be honest regarding roadblocks.
+\end{itemize}
+
+\textbf{Back of House / Front of House} - 2012 to 2018 - \emph{Mac's Brewery}, Wellington, NZ
+\begin{itemize}
+	\item Upskilling to learn all aspects of the trade.
+	\item Cope under pressure in a fast-paced work environment that involved risk management, i.e. negotiations with disorderly customers.
+	\item Empathetic and Active Listening when dealing with confrontations.
+\end{itemize}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
@@ -101,163 +90,140 @@ My goal is to leave the world a better place than I found it. I plan to bring th
 
 \cvsect{Education}
 
-\begin{entrylist}
-	\entry
-		{2016 -- Now}
-		{Bachelor of Engineering (Hons)}
-		{Victoria University of Wellington}
-		{
-			The bachelor degree is majoring in Software Engineering. I have taken a particular interest in Machine Learning and Data Science. This field of study compliments my industry work experience with NIWA.
-			\\\\
-			\textbf{Papers:} Artificial Intelligence, Database System Engineering, Human Computer Interaction \\
-			\textbf{Roles:} volunteer note-taker \\
-			\textbf{Awards:} Victoria Excellence Scholarship \\\\
-			\emph{N.B Attatched to this CV is a letter commenting on my most recent grades.}
-		}
-	\entry
-		{2011 - 2015}
-		{NCEA Level 3 endorsed with Excellence}
-		{Rongotai College}
-		{
-			\textbf{Subjects:} Computers, Physics, Calculus, English, Graphics, Music \\
-			\textbf{Roles:} Prefect, UN Youth Ambassador, Jazz Band, Production Band \\
-			\textbf{Awards:} Scholarship English
-		}
-\end{entrylist}
+\textbf{Bachelor of Engineering (Software Engineering)} - 2016 to Present - \emph{Victoria University of Wellington}
+\begin{itemize}
+	\item Subjects were chosen to provide an academic background to supplement a full-stack developer. \textbf{Artificial Intelligence, Database System Engineering, Human-Computer Interaction, Professional Practise}
+	\item Volunteer position communicating information to make the university accessible to a wider audience. \textbf{Note-Taker}
+	\item Awarded to those who excelled in their secondary school studies. \textbf{Victoria Excellence Scholarship}
+\end{itemize}
+\emph{N.B The Head of School's commentary on my most recent grades is attached to this document.} \\
+
+\textbf{NCEA Level 3} - 2011 to 2015 - \emph{Rongotai College}
+\begin{itemize}
+	\item These subjects provided the bedrock for a passion in Computer Science. \textbf{Computers, Physics, Calculus, English, Graphics, Music}
+	\item Extra-curricular roles helped develop hone in public speaking and presentation skills. \textbf{Prefect, UN Youth Ambassador, Jazz Band, Production Band, Debating}
+	\item This is an award for university level written communications skills given to secondary school students. \textbf{Scholarship English}
+\end{itemize}
 
 %----------------------------------------------------------------------------------------
 %	ProjectsThe Wellington Hub was hosted by Niwa.
 %----------------------------------------------------------------------------------------
-% TODO [ ] expand on project descriptions
-% TODO [ ] make descriptions generic to a subject matter, less focussed on technologies
+% TODO [x] expand on project descriptions
+% TODO [x] make descriptions generic to a subject matter, less focussed on technologies
 
 \cvsect{Projects}
 
 {
-	{\textbf{Advent of Code 2020}
+	\textbf{Advent of Code}
 	\\
-	Advent of Code is an Advent calendar of small programming puzzled that can be solved in a language of your choice. I chose to solve the 2020 AOC with Haskell. Functional programming is less prone to errors because functions cannot have unintended side effects. This is important for a competition where time is an important factor. The competition penalized incorrect submissions, so it was important to validate code on test cases, before submitting a final answer.
-	\\
-	{\texttt{Haskell}\slashsep\texttt{Problem Solving}\slashsep\texttt{Competition}}
+	An advent calendar of programming puzzles that are language agnostic. The functional programming language Haskell was chosen. In Haskell, programs cannot store state so functions cannot have unintended side effects. Reducing the likelihood of errors meant solving problems faster. Incorrect submissions were penalized, so test cases were verified before submitting a final answer.
 	\\\\
 }
 {
-	{\textbf{Data Ingestion}
+	\textbf{Data Ingestion}
 	\\
-	This project involved an ingesting a Benthic Biodiversity into the New Zealand Ocean Data Network (NZODN). NZODN is an open-source technology stack that implements OGC standards, with tools such as GeoServer for providing web services to display maps and GeoNetwork as a CMS for a metadata catalogue. This software is configured to communicate with a Postgres database which stores the geospatial data.
-	\\
-	{\texttt{Python}\slashsep\texttt{Postgres}\slashsep\texttt{GeoServer}}
+	Ingesting Benthic Biodiversity data into the NZON portal. This is an open-source technology stack that implements OGC standards. It uses tools such as GeoServer to providing web services to display maps, and GeoNetwork as a CMS for a metadata catalogue. We configure the software to use a Postgres database storing geospatial data.
 	\\\\
 }
 {
-	{\textbf{MCS}}
+	\textbf{Mission Control System}
 	\\
-	The Mission Control System was a software interface that runs on a laptop to display telemetry information from a rocket. It also presented the Monte Carlo simulation data on the projected landing locations. This was developed as a group using a blend of agile and scrum methodologies. We strived for the software quality attribute of portability. To do this we implemented an open-source web map service that can display locally stored map data for offline usage.
-	\\
-	{\texttt{React.js}\slashsep\texttt{Mapserver}\slashsep\texttt{Leaflet}\texttt{Apache}}
-}
-
-%----------------------------------------------------------------------------------------
-%	Workshops
-%----------------------------------------------------------------------------------------
-
-\cvsect{Workshops}
-
-% TODO [ ] mention workshops that I have attended - Foss4G, Python Data Ingestion, Databases 101
-{
-	{\textbf{FOSS4G}}
-	\\
-	The FOSS45 SoTM conference was held in November 2020. Due to the virus, local hubs for the international event were held across the planet. This conference covers cutting edge open-source GIS software. A former developer at MapBox found out there software was being used for drone strikes in the middle east. An important take away from the conference was the ethics of the software we develop. As engineers, we may consider adding a "Don't Be Evil!" clause to our license to help open source developers sleep at night.
-	\\\\
-}
-{
-	{\textbf{Python Data Ingestion}}
-	\\
-	This was a two-day workshop hosted by Niwa in November 2020. The attendees were mostly data scientists and software developers. This covered using Python for Scientific Computing. We explored the Anaconda environment for Python development for package management. It can be used to replicate a python environment on another machine. Jupyter notebook is an important tool for Literate Programming, it can be used to merge documentation and codebases. This is incredibly useful for communicating codebases to non-technical users.
-	\\\\
-}
-{
-	{\textbf{Databases 101}}
-	\\
-	This was a workshop hosted by the Principal Technician of Fisheries at NIWA. There was an interesting discussion that compared RDBMS vs NoSQL databases. There is are certain tradeoffs between different software quality attributes, and risks involve getting vendor locked into proprietary cloud software like AWS or Azure. The workshop's attendees were mostly field scientists who are end-users of the database. As a software developer who creates and maintains these databases, it was useful to understand the goals of the end-users of the product.
+	Runs on a laptop in the field to display telemetry data from a rocket. It presents a Monte Carlo simulation data to predict possible landing locations. It was developed as a group using agile and scrum methodologies. We strived for the software quality attribute of portability. To do this we implemented an open-source web map service that can display locally stored map data for offline usage.
 }
 
 %----------------------------------------------------------------------------------------
 %	Technical Skills
 %----------------------------------------------------------------------------------------
-
-\cvsect{Technical Skills}
-
 % TODO [ ] mention areas of knowledge - Python, JavaScript, R, Git, LaTeX, Postgres
 % TODO [ ] avoid abstract measurements of capability. I am a student I don't have much experience in anything
-{
-	{\textbf{Scripting Languages}}
-	\\
-	{JavaScript (React, Angular, Vue), Java (Maven, Java 8), Haskell (Functional Programming), C (Networking), C++ (Unreal Engine)}
-	\\\\
-}
-{
-	{\textbf{Machine Learning}}
-	\\
-	{Python (Tensorflow), R (Visualization, Regression, Classification), Weka (Regression / Classification / Pipelines) }
-	\\\\
-}
-{
-	{\textbf{Databases}}
-	\\
-	{Firebase (cloud NoSQL database), Postgres (open source industry standard), Postgis (for geospatial data)}
-	\\\\
-}
-{
-	{\textbf{Workflow}}
-	\\
-	{Git (teamwork/VCS), LaTeX (technical writing)}
-}
+
+\cvsect{Technical Tools}
+
+\textbf{Scripting:} General knowledge of the fundamental principles and tradeoffs for a breadth and depth of programming languages. Consisting of both the Functional and Object Oriented paradigms, and a mix of High and Low-level languages. \textbf{JavaScript, HTML5, CSS, React, Angular, Vue, Java, Ruby, Haskell, Common-Lisp, C, C++} \\
+
+\textbf{Machine Learning:} Practical experience implementing machine learning pipelines to produce business knowledge from real-world datasets. Use of scripting languages for preprocessing, exploratory data analysis, training and testing, and data visualization. \textbf{Python, Scikit-learn, TensorFlow, R, Weka} \\
+
+\textbf{Databases:} Academic and practical knowledge in both SQL and NoSQL database systems. Created databases using cloud services that are utilized in full-stack applications. \textbf{Firebase, Postgres, Postgis, SQLite, MongoDB} \\
+
+\textbf{Workflow:} Git an amazing tool for version control and agile documentation of development. It provides an excellent environment for a development community, working together asynchronously and remotely. \textbf{Git, Gitlab, Github, GitBucket, Jira, LaTeX, Markdown, PlantUML} \\
 
 %----------------------------------------------------------------------------------------
-%	Hobbies
+%	Workshops
 %----------------------------------------------------------------------------------------
+% TODO [x] mention workshops that I have attended - Foss4G, Python Data Ingestion, Databases 101
 
-\cvsect{Hobbies}
-
-% TODO [ ] Move hobbies to the second page of the CV
+\cvsect{Workshops}
 
 {
-	\textbf{Debating} \\
-	Public speaking, politics, philosophy, UN Youth Ambassador\\
+	\textbf{FOSS4G SoTM}
+	\\
+	Due to the virus, local hubs for the international event were held. This conference covers cutting edge open-source GIS software. A former developer at MapBox found out there software was being used for drone strikes in the middle east. An important take away from the conference was the ethics of the software we develop.
+	\\\\
 }
 {
-	\textbf{Sciences} \\
-	CS, AI, Robotics, Astrophysics, Psychology \\
+ 	\textbf{Python Data Ingestion}
+	\\
+	The attendees were mostly data scientists and software developers. This covered using Python for Scientific Computing. We explored the Anaconda environment for Python development for package management. It can be used to replicate a python environment on another machine. Jupyter notebook is an important tool for Literate Programming as it merges documentation and codebases.
+	\\\\
 }
 {
-	\textbf{Guitar} \\
-	Classical, Jazz, Blues, Classic Rock \\
-}
-{
-	\textbf{Sports} \\
-	Canoe Polo, Table Tennis
+	\textbf{Databases 101}
+	\\
+	There was an interesting discussion that compared RDBMS vs NoSQL databases. There is are certain tradeoffs between different software quality attributes, and risks involve getting vendor locked into proprietary cloud software (i.e., AWS, Azure or Firebase). As a developer who creates and maintains these databases, it was useful to understand the goals of the end-users of the product.
 }
 
 %----------------------------------------------------------------------------------------
 %	References
 %----------------------------------------------------------------------------------------
+% TODO [x] Contact information for references is available upon request
+% TODO [x] Reflect on data security and data privacy and ask what broadcasting contact information says to an employer
+% TODO [x] Contact A University Tutor - Miru
+% TODO [x] include titles/positions for each of the references
+% TODO [x] connect to a soft skill for non-IT connections
+% TODO [ ] Get a list of 10 and cater references for each job
 
 \cvsect{References}
 
-% TODO [ ] include titles/positions for each of the references
-% TODO [ ] connect to a soft skill for non-IT connections
-% TODO [ ] Get a list of 10 and cater references for each job
-% TODO [x] Contact information for references is available upon request
-% TODO [x] Reflect on data security and data privacy and ask what broadcasting contact information says to an employer
 {
 	\textbf{Andrea Mari} - Research Software Engineer at \emph{Niwa} \\
-	Andrea is my mentor at Niwa. He has introduced me to the software development processes at Niwa, including Jira and regular agile meetings. I am always excited to learn new concepts and to learn from his industry expertise as a software developer.\\\\
+	Andrea is my mentor at Niwa. He has introduced me to the software development processes at Niwa, including Jira and regular agile meetings. I am humbled to learn from his industry expertise as a software developer.\\\\
 }
 {
-	\textbf{Tom Moorhead} - Functions Coordinator for \emph{Mac's Function Center} \\
-	My work under Tom taught me how to pay attention to detail and execute a plan. Often planning large scale events for several hundred people, everything had to be in order and well thought out ahead of time. We employed industry standards in catering and collaborated with the host to meet their vision for the event. \\\\
+	\textbf{Tom Moorhead} - Functions Coordinator at \emph{Mac's Function Center} \\
+	We planned large scale events for several hundred people. We employed industry standards in catering and collaborated with the host to meet their vision for the event. \\\\
 }
 \emph{N.B Contact information is available upon request.}
 %----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Academic Letter
+%----------------------------------------------------------------------------------------
+
+\includepdf[pages=-]{academic-certificate.pdf}
+
 \end{document}
+
+%----------------------------------------------------------------------------------------
+%	Hobbies
+%----------------------------------------------------------------------------------------
+
+% \cvsect{Hobbies}
+
+% TODO [ ] Move hobbies to the second page of the CV
+%
+% {
+% 	\textbf{Debating} \\
+% 	Public speaking, politics, philosophy, UN Youth Ambassador\\
+% }
+% {
+% 	\textbf{Sciences} \\
+% 	CS, AI, Robotics, Astrophysics, Psychology \\
+% }
+% {
+% 	\textbf{Guitar} \\
+% 	Classical, Jazz, Blues, Classic Rock \\
+% }
+% {
+% 	\textbf{Sports} \\
+% 	Canoe Polo, Table Tennis
+% }
