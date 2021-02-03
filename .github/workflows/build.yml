@@ -4,9 +4,11 @@ jobs:
   build_latex:
     runs-on: ubuntu-latest
     steps:
+      - name: change directory
+        run: cd cv
       - name: Set up Git repository
         uses: actions/checkout@v1
       - name: Compile LaTeX document
         uses: dante-ev/latex-action@master
         with:
-          root_file: cv/cv.tex
+          root_file: cv.tex
