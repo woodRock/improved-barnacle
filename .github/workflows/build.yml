@@ -6,9 +6,8 @@ jobs:
     steps:
       - name: 🚀 Checkout repository
         uses: actions/checkout@v1
-      - name: ✈️ Change Directory
-        run: cd cv
       - name: 🖥️ Compile LaTeX document
-        uses: dante-ev/latex-action@master
+        uses: vinay0410/tectonic-action@v1.1.2
         with:
-          root_file: cv.tex
+          tex_path: cv/cv.tex
+          push: yes 
