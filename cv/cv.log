@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.18.0 (Web2C 2024)  (format=lualatex 2024.6.14)  24 OCT 2024 19:07
+This is LuaTeX, Version 1.18.0 (Web2C 2024)  (format=lualatex 2024.6.14)  24 OCT 2024 19:10
  restricted system commands enabled.
 **cv.tex
 (./cv.tex
@@ -1467,13 +1467,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 269--271
 
  []
 
+! Misplaced alignment tab character &.
+l.272 ...upervisor, Deputy Head of School Research &
+                                                   International
+? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--274
+Underfull \hbox (badness 10000) in paragraph at lines 272--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--277
+Underfull \hbox (badness 10000) in paragraph at lines 276--278
 
  []
 
@@ -1483,7 +1487,7 @@ und PDF version '1.6', but at most version '1.5' allowed
 <academic-certificate-2021.pdf, id=43, 728.3308pt x 1030.67989pt>
 File: academic-certificate-2021.pdf Graphic file (type pdf)
 <use academic-certificate-2021.pdf>
-Package luatex.def Info: academic-certificate-2021.pdf  used on input line 285.
+Package luatex.def Info: academic-certificate-2021.pdf  used on input line 286.
 
 (luatex.def)             Requested size: 728.32901pt x 1030.67737pt.
 
@@ -1491,7 +1495,7 @@ warning  (file academic-certificate-2021.pdf) (pdf inclusion): PDF inclusion: fo
 und PDF version '1.6', but at most version '1.5' allowed
 File: academic-certificate-2021.pdf Graphic file (type pdf)
 <use academic-certificate-2021.pdf>
-Package luatex.def Info: academic-certificate-2021.pdf  used on input line 285.
+Package luatex.def Info: academic-certificate-2021.pdf  used on input line 286.
 
 (luatex.def)             Requested size: 728.32901pt x 1030.67737pt.
 
@@ -1504,28 +1508,28 @@ und PDF version '1.6', but at most version '1.5' allowed
 File: academic-certificate-2021.pdf Graphic file (type pdf)
 <use academic-certificate-2021.pdf, page 1>
 Package luatex.def Info: academic-certificate-2021.pdf , page1 used on input li
-ne 285.
+ne 286.
 (luatex.def)             Requested size: 728.32901pt x 1030.67737pt.
 File: academic-certificate-2021.pdf Graphic file (type pdf)
 <use academic-certificate-2021.pdf, page 1>
 Package luatex.def Info: academic-certificate-2021.pdf , page1 used on input li
-ne 285.
+ne 286.
 (luatex.def)             Requested size: 597.53517pt x 845.58762pt.
 [4]
 File: academic-certificate-2021.pdf Graphic file (type pdf)
 <use academic-certificate-2021.pdf, page 1>
 Package luatex.def Info: academic-certificate-2021.pdf , page1 used on input li
-ne 285.
+ne 286.
 (luatex.def)             Requested size: 597.53517pt x 845.58762pt.
 File: academic-certificate-2021.pdf Graphic file (type pdf)
 <use academic-certificate-2021.pdf, page 1>
 Package luatex.def Info: academic-certificate-2021.pdf , page1 used on input li
-ne 285.
+ne 286.
 (luatex.def)             Requested size: 597.53517pt x 845.58762pt.
 File: academic-certificate-2021.pdf Graphic file (type pdf)
 <use academic-certificate-2021.pdf, page 1>
 Package luatex.def Info: academic-certificate-2021.pdf , page1 used on input li
-ne 285.
+ne 286.
 (luatex.def)             Requested size: 597.53517pt x 845.58762pt.
  [5
 
@@ -1535,7 +1539,7 @@ und PDF version '1.6', but at most version '1.5' allowed
 <academic-certificate-2020.pdf, id=123, 728.3308pt x 1030.67989pt>
 File: academic-certificate-2020.pdf Graphic file (type pdf)
 <use academic-certificate-2020.pdf>
-Package luatex.def Info: academic-certificate-2020.pdf  used on input line 287.
+Package luatex.def Info: academic-certificate-2020.pdf  used on input line 288.
 
 (luatex.def)             Requested size: 728.32901pt x 1030.67737pt.
 
@@ -1543,7 +1547,7 @@ warning  (file academic-certificate-2020.pdf) (pdf inclusion): PDF inclusion: fo
 und PDF version '1.6', but at most version '1.5' allowed
 File: academic-certificate-2020.pdf Graphic file (type pdf)
 <use academic-certificate-2020.pdf>
-Package luatex.def Info: academic-certificate-2020.pdf  used on input line 287.
+Package luatex.def Info: academic-certificate-2020.pdf  used on input line 288.
 
 (luatex.def)             Requested size: 728.32901pt x 1030.67737pt.
 
@@ -1556,27 +1560,27 @@ und PDF version '1.6', but at most version '1.5' allowed
 File: academic-certificate-2020.pdf Graphic file (type pdf)
 <use academic-certificate-2020.pdf, page 1>
 Package luatex.def Info: academic-certificate-2020.pdf , page1 used on input li
-ne 287.
+ne 288.
 (luatex.def)             Requested size: 728.32901pt x 1030.67737pt.
 File: academic-certificate-2020.pdf Graphic file (type pdf)
 <use academic-certificate-2020.pdf, page 1>
 Package luatex.def Info: academic-certificate-2020.pdf , page1 used on input li
-ne 287.
+ne 288.
 (luatex.def)             Requested size: 597.53517pt x 845.58762pt.
 File: academic-certificate-2020.pdf Graphic file (type pdf)
 <use academic-certificate-2020.pdf, page 1>
 Package luatex.def Info: academic-certificate-2020.pdf , page1 used on input li
-ne 287.
+ne 288.
 (luatex.def)             Requested size: 597.53517pt x 845.58762pt.
 File: academic-certificate-2020.pdf Graphic file (type pdf)
 <use academic-certificate-2020.pdf, page 1>
 Package luatex.def Info: academic-certificate-2020.pdf , page1 used on input li
-ne 287.
+ne 288.
 (luatex.def)             Requested size: 597.53517pt x 845.58762pt.
 File: academic-certificate-2020.pdf Graphic file (type pdf)
 <use academic-certificate-2020.pdf, page 1>
 Package luatex.def Info: academic-certificate-2020.pdf , page1 used on input li
-ne 287.
+ne 288.
 (luatex.def)             Requested size: 597.53517pt x 845.58762pt.
 [6
 
@@ -1613,7 +1617,7 @@ ic.otf></usr/pkg/share/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome
 some5/FontAwesome5Free-Solid-900.otf></usr/pkg/share/texmf-dist/fonts/opentype/i
 mpallari/raleway/Raleway-Regular.otf></usr/pkg/share/texmf-dist/fonts/opentype/i
 mpallari/raleway/Raleway-Bold.otf>
-Output written on cv.pdf (6 pages, 385226 bytes).
+Output written on cv.pdf (6 pages, 385244 bytes).
 
 PDF statistics: 229 PDF objects out of 1000 (max. 8388607)
  153 compressed objects within 2 object streams
