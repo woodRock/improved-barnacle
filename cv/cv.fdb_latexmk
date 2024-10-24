@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1729749668 "cv.tex" "cv.pdf" "cv" 1729749668
+["lualatex"] 1729750029 "cv.tex" "cv.pdf" "cv" 1729750029
   "/home/woodj4/.texlive2024/texmf-var/luatex-cache/generic/fonts/otl/fontawesome5brands-regular-400.luc" 1729745268 180106 0c9024617ef37c9d59804766873761d8 ""
   "/home/woodj4/.texlive2024/texmf-var/luatex-cache/generic/fonts/otl/fontawesome5free-solid-900.luc" 1729745268 380931 75bd8ba08cef7fcbe862bd46a31f1d49 ""
   "/home/woodj4/.texlive2024/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc" 1729745302 125958 29597e1c08670ce6fa788f3fc265ea4d ""
@@ -250,13 +250,13 @@
   "/var/lib/texmf/web2c/luatex/lualatex.fmt" 1718311529 12252400 fd63fa8174c60b71be96b627717edf9f ""
   "academic-certificate-2020.pdf" 1729744387 178003 2718f5109c1adde5d249a444b1706b6d ""
   "academic-certificate-2021.pdf" 1729744387 184850 7bfb1801dabeb36e54d9ebd6e5b6d3fa ""
-  "cv.aux" 1729749668 8 a94a2480d3289e625eea47cd1b285758 "lualatex"
+  "cv.aux" 1729750029 8 a94a2480d3289e625eea47cd1b285758 "lualatex"
   "cv.out" 0 -1 0 "lualatex"
-  "cv.tex" 1729749664 19173 55d9d4a21fe3538f8f314436055905d4 ""
+  "cv.tex" 1729750026 19535 b56621890203790f2f39e5bec3630783 ""
   "developercv.cls" 1729744387 7515 a47f967a6d2efa84fbf72dc6b8be06bb ""
   "moresize.sty" 0 -1 0 ""
   (generated)
-  "cv.pdf"
   "cv.out"
+  "cv.pdf"
   "cv.aux"
   "cv.log"

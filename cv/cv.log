@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.18.0 (Web2C 2024)  (format=lualatex 2024.6.14)  24 OCT 2024 19:01
+This is LuaTeX, Version 1.18.0 (Web2C 2024)  (format=lualatex 2024.6.14)  24 OCT 2024 19:07
  restricted system commands enabled.
 **cv.tex
 (./cv.tex
@@ -1449,15 +1449,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--226
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
-
- []
-
 [3
 Missing character: There is no ‑ (U+2011) in font [Raleway-Regular.otf]:mode=n
 ode;script=latn;language=dflt;+lnum;+tlig;!
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
@@ -1602,7 +1602,7 @@ Here is how much of LuaTeX's memory you used:
  453 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 56 glue_spec,
  5 attribute_list, 2 write nodes
-   avail lists: 1:1,2:861,3:381,4:434,5:1729,6:122,7:11624,8:1,9:722,10:5,11:892
+   avail lists: 1:1,2:861,3:381,4:434,5:1727,6:122,7:11628,8:1,9:722,10:5,11:901
 
  50400 multiletter control sequences out of 65536+600000
  67 fonts using 5805551 bytes
@@ -1613,7 +1613,7 @@ ic.otf></usr/pkg/share/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome
 some5/FontAwesome5Free-Solid-900.otf></usr/pkg/share/texmf-dist/fonts/opentype/i
 mpallari/raleway/Raleway-Regular.otf></usr/pkg/share/texmf-dist/fonts/opentype/i
 mpallari/raleway/Raleway-Bold.otf>
-Output written on cv.pdf (6 pages, 384889 bytes).
+Output written on cv.pdf (6 pages, 385226 bytes).
 
 PDF statistics: 229 PDF objects out of 1000 (max. 8388607)
  153 compressed objects within 2 object streams
